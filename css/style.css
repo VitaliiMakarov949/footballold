@@ -1,0 +1,118 @@
+body {
+    font-family: Arial;
+    background-color: #8dc63f;
+}
+
+.wrapper {
+    background-color: #fff;
+
+}
+
+
+.footer {
+    background-color: #39930d;
+
+}
+
+.new {
+    background-color: #f3f3f3;
+}
+
+.top {
+    font-size: 22px;
+    line-height: 1px;
+    color: #39930d;
+}
+
+.top1 {
+    font-size: 44px;
+    line-height: 1px;
+    color: #39930d;
+}
+
+.top3 {
+    font-size: 14px;
+    line-height: 7px;
+    color: #5a5a5a;
+    font-style: italic;
+}
+
+.phone {
+    font-size: 22px;
+    line-height: 7px;
+    color: #39930d;
+}
+
+.work {
+    font-size: 14px;
+    line-height: 7px;
+    color: #5a5a5a;
+    font-style: italic;
+    font-family: "Arial";
+}
+
+.number {
+    font-size: 14px;
+    line-height: 7px;
+    color: #5a5a5a;
+    font-style: italic;
+    text-align: right;
+}
+
+.main_text {
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 7px;
+    color: #39930d;
+    font-weight: bold;
+}
+
+.menu {
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #39930d;
+}
+
+.partner {
+    background-color: #39930d;
+    font-size: 18px;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.gate {
+    background-attachment: fixed;
+    background-image: url(../img/picture.png);
+}
+
+.contacts {
+    font-size: 44px;
+    line-height: 1px;
+}
+
+.pot {
+    font-size: 22px;
+    line-height: 1px;
+    color: #39930d;
+}
+
+.pot1 {
+    font-size: 44px;
+    line-height: 1px;
+    color: #39930d;
+}
+
+.pot2 {
+    font-size: 14px;
+    line-height: 7px;
+    color: #5a5a5a;
+    font-style: italic;
+    font-family: "Arial";
+}
