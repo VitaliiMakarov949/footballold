@@ -18,23 +18,26 @@ body {
     background-color: #f3f3f3;
 }
 
-.top {
+.pot {
     font-size: 22px;
     line-height: 1px;
     color: #39930d;
 }
 
-.top1 {
+.pot1 {
     font-size: 44px;
     line-height: 1px;
     color: #39930d;
 }
 
-.top3 {
+.pot3 {
     font-size: 14px;
     line-height: 7px;
     color: #5a5a5a;
     font-style: italic;
+}
+.gate {
+    max-width: 930px;
 }
 
 .phone {
