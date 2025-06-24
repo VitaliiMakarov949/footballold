@@ -1,16 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial;
     background-color: #8dc63f;
 }
 
+.main_container {
+    padding: 25px 0 29px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
     background-color: #fff;
+    padding: 0 15px;
 
 }
 
+.header {
+    padding: 25px 0;
+}
+
+.gate {
+    width: 100%;
+}
 
 .footer {
     background-color: #39930d;
+    font-size: 14px;
+    line-height: 7px;
+    color: #ffffff;
+    font-family: "Arial";
+    padding: 14px 15px;
+    margin: 0 -15px;
 
 }
 
@@ -18,24 +52,25 @@ body {
     background-color: #f3f3f3;
 }
 
-.pot {
+.logo p,
+.contacts a {
     font-size: 22px;
-    line-height: 1px;
     color: #39930d;
 }
 
-.pot1 {
+.logo b {
+    display: block;
     font-size: 44px;
-    line-height: 1px;
+    padding: 3px 0;
     color: #39930d;
 }
 
-.pot3 {
+.contacts,
+i {
     font-size: 14px;
-    line-height: 7px;
     color: #5a5a5a;
-    font-style: italic;
 }
+
 .gate {
     max-width: 930px;
 }
@@ -44,6 +79,9 @@ body {
     font-size: 22px;
     line-height: 7px;
     color: #39930d;
+    font-family: "Arial";
+    text-align: right;
+    text-decoration: none;
 }
 
 .work {
@@ -52,6 +90,7 @@ body {
     color: #5a5a5a;
     font-style: italic;
     font-family: "Arial";
+    text-align: right;
 }
 
 .number {
@@ -62,25 +101,19 @@ body {
     text-align: right;
 }
 
-.main_text {
+.main_text p {
+    max-width: 599px;
+    margin-bottom: 18px;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 1.5em;
     color: #343434;
 }
 
 h1 {
     font-size: 24px;
-    line-height: 7px;
     color: #39930d;
-    font-weight: bold;
-}
+    padding-bottom: 17px;
 
-.menu {
-    font-size: 14px;
-    line-height: 30px;
-    text-decoration: underline;
-    text-transform: uppercase;
-    color: #39930d;
 }
 
 .partner {
@@ -95,27 +128,21 @@ h1 {
     background-image: url(../img/picture.png);
 }
 
-.contacts {
-    font-size: 44px;
-    line-height: 1px;
-}
-
-.pot {
-    font-size: 22px;
-    line-height: 1px;
+.aside p {
+    font-size: 18px;
     color: #39930d;
+    padding: 11px 19px;
+    background-color: #39930d;
 }
 
-.pot1 {
-    font-size: 44px;
-    line-height: 1px;
-    color: #39930d;
-}
-
-.pot2 {
+.menu a {
     font-size: 14px;
-    line-height: 7px;
-    color: #5a5a5a;
-    font-style: italic;
-    font-family: "Arial";
+    line-height: 2.1em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #39930d;
+}
+
+.menu ul {
+    padding: 20px;
 }
