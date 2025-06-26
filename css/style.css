@@ -40,9 +40,7 @@ a {
 .footer {
     background-color: #39930d;
     font-size: 14px;
-    line-height: 7px;
-    color: #ffffff;
-    font-family: "Arial";
+    color: #fff;
     padding: 14px 15px;
     margin: 0 -15px;
 
@@ -69,10 +67,6 @@ a {
 i {
     font-size: 14px;
     color: #5a5a5a;
-}
-
-.gate {
-    max-width: 100%
 }
 
 .phone {
@@ -119,9 +113,8 @@ h1 {
 .partner {
     background-color: #39930d;
     font-size: 18px;
-    line-height: 40px;
     color: #ffffff;
-    padding: 15px 114px 11px 19px;
+    padding: 11px 19px;
 }
 
 .gate {
