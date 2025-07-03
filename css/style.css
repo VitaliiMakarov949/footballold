@@ -32,7 +32,13 @@ a {
 .header {
     padding: 25px 0;
 }
-
+.logo {
+    gap: 20px;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
 .gate {
     width: 100%;
 }
