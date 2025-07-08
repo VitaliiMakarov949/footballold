@@ -34,6 +34,7 @@ a {
 }
 .logo {
     gap: 20px;
+    align-items: center;
 }
 .flex-between {
     display: flex;
@@ -56,9 +57,7 @@ a {
     background-color: #f3f3f3;
 }
 .contacts {
-    display: flex;
-    justify-content: end;
-    flex-direction: column;
+    text-align: right;
 }
 .logo p,
 .contacts a {
