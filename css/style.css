@@ -7,10 +7,12 @@
 body {
     font-family: Arial;
     background-color: #8dc63f;
+    cursor: url(../img/cursor.cur), default;
 }
 
 .main_container {
     padding: 25px 0 29px;
+    І
 }
 
 ul {
@@ -19,6 +21,8 @@ ul {
 
 a {
     text-decoration: none;
+    cursor: url(../img/cursor2.cur), default;
+    transition: all .9s ease;
 }
 
 .wrapper {
@@ -32,14 +36,17 @@ a {
 .header {
     padding: 25px 0;
 }
+
 .logo {
     gap: 20px;
     align-items: center;
 }
+
 .flex-between {
     display: flex;
     justify-content: space-between;
 }
+
 .gate {
     width: 100%;
 }
@@ -56,9 +63,11 @@ a {
 .new {
     background-color: #f3f3f3;
 }
+
 .contacts {
     text-align: right;
 }
+
 .logo p,
 .contacts a {
     font-size: 22px;
@@ -76,7 +85,7 @@ a {
 i {
     font-size: 14px;
     color: #5a5a5a;
-    
+
 }
 
 .phone {
@@ -149,4 +158,7 @@ h1 {
 
 .menu ul {
     padding: 20px;
+}
+a:hover {
+    color: red;
 }
