@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 1px;
+}
 body {
     font-family: Arial;
     background-color: #8dc63f;
@@ -11,8 +14,8 @@ body {
 }
 
 .main_container {
-    padding: 25px 0 29px;
-    І
+    padding: 25rem 0 29rem;
+    flex-wrap: wrap-reverse;
 }
 
 ul {
@@ -26,19 +29,20 @@ a {
 }
 
 .wrapper {
-    max-width: 960px;
+    max-width: 960rem;
     margin: 0 auto;
     background-color: #fff;
-    padding: 0 15px;
+    padding: 0 15rem;
 
 }
 
 .header {
-    padding: 25px 0;
+    padding: 25rem 0;
+    flex-wrap: wrap;
 }
 
 .logo {
-    gap: 20px;
+    gap: 20rem;
     align-items: center;
 }
 
@@ -47,16 +51,19 @@ a {
     justify-content: space-between;
 }
 
-.gate {
+.gate img{
     width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+    object-position: 75%;
 }
 
 .footer {
     background-color: #39930d;
-    font-size: 14px;
+    font-size: 14rem;
     color: #fff;
-    padding: 14px 15px;
-    margin: 0 -15px;
+    padding: 14rem 15rem;
+    margin: 0 -15rem;
 
 }
 
@@ -70,36 +77,35 @@ a {
 
 .logo p,
 .contacts a {
-    font-size: 22px;
+    font-size: 22rem;
     color: #39930d;
 }
 
 .logo b {
     display: block;
-    font-size: 44px;
-    padding: 3px 0;
+    font-size: 44rem;
+    padding: 3rem 0;
     color: #39930d;
 }
 
 .contacts,
 i {
-    font-size: 14px;
+    font-size: 14rem;
     color: #5a5a5a;
 
 }
 
 .phone {
-    font-size: 22px;
-    line-height: 7px;
+    font-size: 22rem;
+    line-height: 7rem;
     color: #39930d;
-    font-family: "Arial";
     text-align: right;
     text-decoration: none;
 }
 
 .work {
-    font-size: 14px;
-    line-height: 7px;
+    font-size: 14rem;
+    line-height: 7rem;
     color: #5a5a5a;
     font-style: italic;
     font-family: "Arial";
@@ -107,33 +113,35 @@ i {
 }
 
 .number {
-    font-size: 14px;
-    line-height: 7px;
+    font-size: 14rem;
+    line-height: 7rem;
     color: #5a5a5a;
     font-style: italic;
     text-align: right;
 }
 
 .main_text p {
-    max-width: 599px;
-    margin-bottom: 18px;
-    font-size: 14px;
+    margin-bottom: 18rem;
+    font-size: 14rem;
     line-height: 1.5em;
     color: #343434;
 }
-
+.menu {
+    width: 100%;
+    min-width: 200px;
+}
 h1 {
-    font-size: 24px;
+    font-size: 24rem;
     color: #39930d;
-    padding-bottom: 17px;
+    padding-bottom: 17rem;
 
 }
 
 .partner {
     background-color: #39930d;
-    font-size: 18px;
-    color: #ffffff;
-    padding: 11px 19px;
+    font-size: 18rem;
+    color: #fff;
+    padding: 11rem 19rem;
 }
 
 .gate {
@@ -142,14 +150,14 @@ h1 {
 }
 
 .aside p {
-    font-size: 18px;
+    font-size: 18rem;
     color: #39930d;
-    padding: 11px 19px;
+    padding: 11rem 19rem;
     background-color: #39930d;
 }
 
 .menu a {
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 2.1em;
     text-decoration: underline;
     text-transform: uppercase;
@@ -157,8 +165,49 @@ h1 {
 }
 
 .menu ul {
-    padding: 20px;
+    padding: 20rem;
 }
 a:hover {
-    color: red;
+    color: yellow;
+}
+@media screen and (min-width: 768px)  {
+    html {
+        font-size: .9px;
+    }
+    .main_container {
+        flex-wrap: nowrap;
+    }  
+}
+
+@media screen and (min-width: 1024px)  {
+    html {
+        font-size: 1px;
+    }
+    .main_text {
+        max-width: 599rem;
+    }
+    .gate {
+        width: 100%;
+        min-height: none;
+        object-fit: cover;
+        object-position: left;
+    }   
+}
+
+@media screen and (min-width: 1440px)  {
+    html {
+        font-size: 1.1px;
+    }    
+}
+
+@media screen and (min-width: 1920px)  {
+    html {
+        font-size: 1.2px;
+    }    
+}
+
+@media screen and (min-width: 2200px)  {
+    html {
+        font-size: 1.7px;
+    }    
 }
