@@ -16,6 +16,7 @@ body {
 .main_container {
     padding: 25rem 0 29rem;
     flex-wrap: wrap-reverse;
+    gap: 10px;
 }
 
 ul {
