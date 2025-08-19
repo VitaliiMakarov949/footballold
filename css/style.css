@@ -167,10 +167,7 @@ h1 {
 a:hover {
     color: yellow;
 }
-.column {
-    display: flex;
-    column-gap: 20px;
-}
+
 @media screen and (min-width: 430) {
     .contacts {
         text-align: right;
@@ -183,10 +180,7 @@ a:hover {
     .main_container {
         flex-wrap: nowrap;
     }
-    .column {
-        display: flex;
-        column-gap: 20px;
-    } 
+    
 }
 
 @media screen and (min-width: 1024px)  {
